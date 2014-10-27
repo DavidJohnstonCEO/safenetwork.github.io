@@ -1,12 +1,12 @@
 # Site settings
-title: SAFE Network
+title: The SAFE Network
 email: frabrunelle@gmail.com
 description: "The SAFE (Secure Access for Everyone) network can be best described as a fully distributed data management service."
 baseurl: ""
 url: "http://www.safenetwork.io"
-twitter_username: frabrunelle
-github_username: frabrunelle
-facebook_username: frabrunelle
+twitter_username: safenetwork_io
+github_username: safenetwork
+facebook_username: pages/The-SAFE-Network/388183547995712
 
 # Build settings
 markdown: kramdown
