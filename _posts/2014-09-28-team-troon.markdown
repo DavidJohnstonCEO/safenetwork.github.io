@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Team Troon"
+title:      "Get to know Maidsafe"
 subtitle:   "insert subtitle here"
 date:       2014-10-28 8:00:00
 author:     "Melvin Sol"
