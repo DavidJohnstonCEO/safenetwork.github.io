@@ -17,6 +17,6 @@ We are a team of 5 with very different backgrounds and skills. Francis Brunelle 
 
 After this introduction we can understand that you’re eager to read the first articles, so please start exploring our website and view the first videos and read the some articles.
 
-If you would like to stay up to date about the world of SAFE you can follow us on [Twitter](https://twitter.com/safenetwork_io), Facebook or subscribe to the newsletter.
+If you would like to stay up to date about the world of SAFE you can follow us on [Twitter](https://twitter.com/safenetwork_io), [Facebook](https://www.facebook.com/pages/The-SAFE-Network/388183547995712) or subscribe to the newsletter (coming soon).
 
 We are very open for contributions, feedback and tips, so please let us now what you would like to see.
