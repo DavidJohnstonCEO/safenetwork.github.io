@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "safenetwork.io is live"
-subtitle:   "We launched the first SAFE network dedicated website"
+subtitle:   "The age of privacy, freedom and security"
 date:       2014-10-28 7:00:00
 author:     "Melvin Sol"
 header-img: "img/website-launch-article.jpg"
