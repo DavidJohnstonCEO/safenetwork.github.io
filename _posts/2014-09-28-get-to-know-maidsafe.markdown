@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Get to know Maidsafe"
+title:      "Get to know MaidSafe"
 subtitle:   "Meet the heroes from Troon, Scotland"
 date:       2014-10-28 8:00:00
 author:     "Melvin Sol"
