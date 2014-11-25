@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "safenetwork.io is live"
-subtitle:   "The age of privacy, freedom and security"
+subtitle:   "The age of privacy, security and freedom"
 date:       2014-10-28 7:00:00
 author:     "Melvin Sol"
 header-img: "img/website-launch-article.jpg"
