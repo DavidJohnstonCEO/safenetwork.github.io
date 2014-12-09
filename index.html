@@ -5,40 +5,47 @@ description: "Secure Access For Everyone"
 header-img: "img/home-bg.png"
 ---
 
-{% for post in paginator.posts %}
 <div class="row">
-  <div class="col-sm-8">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      <h2 class="post-title">
-        {{ post.title }}
-      </h2>
-      {% if post.subtitle %}
-      <h3 class="post-subtitle">
-        {{ post.subtitle }}
-      </h3>
+  <div class="col-sm-9">
+    {% for post in paginator.posts %}
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="{{ post.header-img }}" class="img-responsive">
+      </div>
+      <div class="col-sm-6">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <h3 class="post-title">
+            {{ post.title }}
+          </h3>
+        </a>
+        <small class="text-muted">
+          {{ post.date | date: "%B %-d, %Y" }} by {{ post.author }}
+        </small>
+        <p class="post-subtitle">
+          {{ post.subtitle }}
+        </p>
+      </div>
+    </div>
+    <hr>
+    {% endfor %}
+
+    <!-- Pager -->
+    {% if paginator.total_pages > 1 %}
+    <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
       {% endif %}
-    </a>
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+      {% if paginator.next_page %}
+      <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+    </ul>
+    {% endif %}
   </div>
-  <div class="col-sm-4">
-    <img src="{{ post.header-img }}" class="img-responsive">
+  <div class="sm-3">
+    <h1>Sidebar</h1>
   </div>
 </div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
