@@ -7,7 +7,7 @@ author:     "Melvin Sol"
 header-img: "img/renewed-systemocs.jpg"
 ---
 
-This week Maidsafe finished their new and very clear written SystemDocs.
+This week MaidSafe finished their new and very clear written SystemDocs.
 These SystemDocs will give everybody a good overview about what the SAFE Network is.
 
 You'll be able to find answers on how everythings works, how you can use it, how to get involved and you can also find the Frequently Asked Questions in the documents.
