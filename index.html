@@ -7,7 +7,7 @@ header-img: "img/home-bg.png"
 
 {% for post in paginator.posts %}
 <div class="row">
-  <div class="col-lg-8">
+  <div class="col-sm-8">
     <a href="{{ post.url | prepend: site.baseurl }}">
       <h2 class="post-title">
         {{ post.title }}
@@ -20,7 +20,7 @@ header-img: "img/home-bg.png"
     </a>
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
   </div>
-  <div class="col-lg-4">
+  <div class="col-sm-4">
     <img src="{{ post.header-img }}" class="img-responsive">
   </div>
 </div>
