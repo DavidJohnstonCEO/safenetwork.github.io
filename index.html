@@ -18,12 +18,12 @@ header-img: "img/home-bg.png"
             {{ post.title }}
           </h3>
         </a>
+        <h4 class="post-subtitle">
+          {{ post.subtitle }}
+        </h4>
         <small class="text-muted">
           {{ post.date | date: "%B %-d, %Y" }} by {{ post.author }}
         </small>
-        <p class="post-subtitle">
-          {{ post.subtitle }}
-        </p>
       </div>
     </div>
     <hr>
@@ -46,6 +46,5 @@ header-img: "img/home-bg.png"
     {% endif %}
   </div>
   <div class="sm-3">
-    <h1>Sidebar</h1>
   </div>
 </div>

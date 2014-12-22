@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://www.safenetwork.io"
 twitter_username: safenetwork_io
 github_username: safenetwork
-facebook_username: pages/The-SAFE-Network/388183547995712
+facebook_username: pages/safenetworkio/388183547995712
 
 # Build settings
 markdown: kramdown
