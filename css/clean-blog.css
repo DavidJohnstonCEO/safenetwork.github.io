@@ -192,14 +192,10 @@ hr.small {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-footer .list-inline {
-  margin: 0;
-  padding: 0;
-}
-footer .copyright {
-  font-size: 14px;
+footer .public-domain {
+  font-size: 15px;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 .floating-label-form-group {
   font-size: 14px;
