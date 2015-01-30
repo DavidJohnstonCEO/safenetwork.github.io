@@ -4,7 +4,7 @@ title:      "An interview with Daniel Dabek"
 subtitle:   "Chief Technology Officer of Infinity Algorithms"
 date:       2014-12-22 8:00:00
 author:     "Melvin Sol"
-header-img: "img/francis-and-daniel.jpg"
+header-img: "/img/francis-and-daniel.jpg"
 ---
 
 This week I’ve interviewed one of the first companies that decided to dedicate itself entirely to the SAFE network. I spoke with the Chief Technology Officer about their decision and plans with the network.

@@ -4,7 +4,7 @@ title:      "THE MAIDSAFE INTERVIEW"
 subtitle:   "PRIVACY. SECURITY. FREEDOM"
 date:       2014-12-25 8:00:00
 author:     "Jason King"
-header-img: "img/maidsafe_logo.png"
+header-img: "/img/maidsafe_logo.png"
 ---
 
 Great interview.

@@ -2,9 +2,9 @@
 layout:     post
 title:      "Get to know MaidSafe"
 subtitle:   "Meet the heroes from Troon, Scotland"
-date:       2014-10-28 8:00:00
+date:       2014-09-28 8:00:00
 author:     "Melvin Sol"
-header-img: "img/team-troon.jpg"
+header-img: "/img/team-troon.jpg"
 ---
 
 We as [safenetwork.io](http://www.safenetwork.io/) can call ourselves the ones who started the first website dedicated to the SAFE network. But the real heroes are living and creating the network itself out of Troon, Scotland.

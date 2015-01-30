@@ -1,50 +1,19 @@
 ---
 layout: page
-title: "News"
-description: "Secure Access For Everyone"
-header-img: "img/home-bg.png"
 ---
 
-<div class="row">
-  <div class="col-sm-9">
-    {% for post in paginator.posts %}
-    <div class="row">
-      <div class="col-sm-4">
-        <img src="{{ post.header-img }}" class="img-responsive">
-      </div>
-      <div class="col-sm-6">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <h3 class="post-title">
-            {{ post.title }}
-          </h3>
-        </a>
-        <h4 class="post-subtitle">
-          {{ post.subtitle }}
-        </h4>
-        <small class="text-muted">
-          {{ post.date | date: "%B %-d, %Y" }} by {{ post.author }}
-        </small>
-      </div>
-    </div>
-    <hr>
-    {% endfor %}
+<img class="img-responsive thumbnail" src="/img/project_safe.png">
 
-    <!-- Pager -->
-    {% if paginator.total_pages > 1 %}
-    <ul class="pager">
-      {% if paginator.previous_page %}
-      <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-      </li>
-      {% endif %}
-      {% if paginator.next_page %}
-      <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-      </li>
-      {% endif %}
-    </ul>
-    {% endif %}
-  </div>
-  <div class="sm-3">
-  </div>
-</div>
+<p class="lead">
+  <strong>Project SAFE</strong> (Secure Access For Everyone) aims to replace the current centralized and controlled Internet
+  infrastructure into a fully decentralized and trustless network on which
+  application developers can build decentralized applications.
+  The network is made up by individual users who contribute storage,
+  computing power and bandwidth to form a world-wide autonomous system.
+  Throughout development the project's vision has been Privacy, Security and
+  Freedom for all the world's population. It is believed that these goals can
+  be instrumental in providing an Internet that is more inclusive and controlled
+  by no individuals or companies.
+</p>
+
+<img class="img-responsive thumbnail" src="/img/wee-plane-gradient.jpg">

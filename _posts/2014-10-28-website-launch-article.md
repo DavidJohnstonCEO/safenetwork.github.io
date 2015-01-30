@@ -4,7 +4,7 @@ title:      "safenetwork.io is live"
 subtitle:   "The age of privacy, security and freedom"
 date:       2014-10-28 7:00:00
 author:     "Melvin Sol"
-header-img: "img/website-launch-article.jpg"
+header-img: "/img/website-launch-article.jpg"
 ---
 
 Today the [safenetwork.io](http://www.safenetwork.io/) team is very happy to announce the official launch of our website and platform which will provide you information, tutorials, videos, interviews and articles about the SAFE network.

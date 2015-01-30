@@ -16,7 +16,7 @@ layout: default
 
 <article>
   <div class="container">
-    <img src="{{ site.baseurl }}/{{ page.header-img }}" class="img-responsive">
+    <img src="{{ page.header-img }}" class="img-responsive">
   	{{ content }}
     <hr>
     <ul class="pager">
@@ -33,3 +33,5 @@ layout: default
     </ul>
   </div>
 </article>
+
+{% include footer.html %}
